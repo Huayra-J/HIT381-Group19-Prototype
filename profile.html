@@ -10,10 +10,8 @@
       border: 1px solid #ccc;
       background-color: #f1f1f1;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      margin-left:63px;
-      margin-right:63px;
     }
 
     /* Style the buttons that are used to open the tab content */
@@ -50,6 +48,7 @@
     .character {
        display: flex;
        justify-content: center;
+       border: 1px solid #ccc;
     }
 
     img{
@@ -63,9 +62,13 @@
     .user_cards_img{
       margin:20px;
     }
-    .character{
-      border: 1px solid #ccc;
+
+    .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
     }
+
     </style>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
@@ -105,6 +108,7 @@
       <button class="tablinks active" onclick="openTab(event, 'favourite')">Favourite</button>
       <button class="tablinks" onclick="openTab(event, 'history')">History</button>
       <button class="tablinks" onclick="openTab(event, 'cooklater')">Cook later</button>
+      <button class="tablinks" onclick="openTab(event, 'dietplanner')">Diet planner</button>
     </div>
 
   <!-- Tab content -->
@@ -122,6 +126,12 @@
       <h3>Cook later</h3>
       <p>These are your unfinished meals.</p>
     </div>
+
+    <div id="dietplanner" class="tabcontent">
+      <h3>Diet planner</h3>
+      <p>This is the diet plan we make for you today.</p>
+    </div>
+
     <br><br><br><br>
       <div class="container" style="position: fixed; bottom: 0; background-color: #fff;">
           <div>
