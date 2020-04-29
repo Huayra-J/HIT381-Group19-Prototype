@@ -5,50 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Settings</title>
-    <style type="text/css">
-        #toggle-button{ display: none; }
-        .button-label{
-            position: relative;
-            display: inline-block;
-            width: 80px;
-            height: 30px;
-            background-color: #ccc;
-            box-shadow: #ccc 0px 0px 0px 2px;
-            border-radius: 30px;
-            overflow: hidden;
-        }
-        .circle{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: #fff;
-        }
-        .button-label .text {
-            line-height: 30px;
-            font-size: 18px;
-            text-shadow: 0 0 2px #ddd;
-        }
-
-        .on { color: #fff; display: none; text-indent: 10px;}
-        .off { color: #fff; display: inline-block; text-indent: 34px;}
-        .button-label .circle{
-            left: 0;
-            transition: all 0.3s;
-        }
-        #toggle-button:checked + label.button-label .circle{
-            left: 50px;
-        }
-        #toggle-button:checked + label.button-label .on{ display: inline-block; }
-        #toggle-button:checked + label.button-label .off{ display: none; }
-        #toggle-button:checked + label.button-label{
-            background-color: #0056B3;
-        }
-
-    </style>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/setting.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
 </head>
 
@@ -99,6 +57,9 @@
             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
         </div>
     </div>
+    <button class="item_button">
+        Log Out
+    </button>
 
     <div class="container">
         <div>
