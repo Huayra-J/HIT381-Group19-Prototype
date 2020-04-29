@@ -9,6 +9,11 @@
       overflow: hidden;
       border: 1px solid #ccc;
       background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left:63px;
+      margin-right:63px;
     }
 
     /* Style the buttons that are used to open the tab content */
@@ -39,6 +44,22 @@
       border: 1px solid #ccc;
       border-top: none;
     }
+    .character {
+       display: flex;
+       justify-content: center;
+    }
+
+    img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+    .user_cards_greeting{
+      margin:auto;
+    }
+    .user_cards_img{
+      margin:20px;
+    }
     </style>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
@@ -64,7 +85,14 @@
   </head>
 
   <body>
-    <div class="profileimage">
+    <div class="character">
+      <div class="user_cards_img">
+        <img src="images/user.png" alt="user image">
+      </div>
+      <div class="user_cards_greeting">
+        <h3>Good Afternoon</h3>
+        <h3>Hibana</h3>
+      </div>
     </div>
 
     <div class="tab">
