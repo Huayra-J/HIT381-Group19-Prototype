@@ -50,8 +50,6 @@
 }
 
 
-
-
 .toggle-button2{ display: none; }
 .toggle-button2:checked + label.button-label .circle{
     left: 50px;
@@ -75,4 +73,42 @@
     background-color: rgb(0, 86, 179);
 }
 
+
+.toggle-button2{ display: none; }
+.toggle-button2:checked + label.button-label .circle{
+    left: 50px;
+}
+.toggle-button2:checked + label.button-label .on{ display: inline-block; }
+.toggle-button2:checked + label.button-label .off{ display: none; }
+.toggle-button2:checked + label.button-label{
+    background-color: rgb(0, 86, 179);
+}
+
+.toggle-button3{ display: none; }
+.toggle-button3:checked + label.button-label .circle{
+    left: 50px;
+}
+.toggle-button3:checked + label.button-label .on{ display: inline-block; }
+.toggle-button3:checked + label.button-label .off{ display: none; }
+.toggle-button3:checked + label.button-label{
+    background-color: rgb(0, 86, 179);
+}
+
+.toggle-button4{ display: none; }
+.toggle-button4:checked + label.button-label .circle{
+    left: 50px;
+}
+.toggle-button4:checked + label.button-label .on{ display: inline-block; }
+.toggle-button4:checked + label.button-label .off{ display: none; }
+.toggle-button4:checked + label.button-label{
+    background-color: rgb(0, 86, 179);
+
+.toggle-button5{ display: none; }
+.toggle-button5:checked + label.button-label .circle{
+    left: 50px;
+}
+.toggle-button5:checked + label.button-label .on{ display: inline-block; }
+.toggle-button5:checked + label.button-label .off{ display: none; }
+.toggle-button5:checked + label.button-label{
+    background-color: rgb(0, 86, 179);
 
