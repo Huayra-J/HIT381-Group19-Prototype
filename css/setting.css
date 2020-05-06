@@ -102,6 +102,7 @@
 .toggle-button4:checked + label.button-label .off{ display: none; }
 .toggle-button4:checked + label.button-label{
     background-color: rgb(0, 86, 179);
+}
 
 .toggle-button5{ display: none; }
 .toggle-button5:checked + label.button-label .circle{
@@ -111,4 +112,4 @@
 .toggle-button5:checked + label.button-label .off{ display: none; }
 .toggle-button5:checked + label.button-label{
     background-color: rgb(0, 86, 179);
-
+}
